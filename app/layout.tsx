@@ -5,7 +5,9 @@ import { GeistMono } from "geist/font/mono";
 import { Navbar } from "@/components/nav";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Mascot, type MascotDoc } from "openmascot/react";
 import Footer from "@/components/footer";
+import clawd from "@/components/mascot/clawd.json";
 import { baseUrl } from "@/sitemap";
 
 export const baseTitle = "Dheeraj Mahra - Frontend Engineer";
@@ -56,6 +58,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Navbar />
           {children}
           <Footer />
+          <Mascot doc={clawd as MascotDoc} position="bottom-right" scale={3} />
           <Analytics />
           <SpeedInsights />
         </main>
