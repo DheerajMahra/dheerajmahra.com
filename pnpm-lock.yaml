@@ -39,8 +39,8 @@ importers:
         specifier: ^6.0.0
         version: 6.0.0(@types/react@18.2.55)(react@19.2.3)
       openmascot:
-        specifier: ^0.1.0
-        version: 0.1.0(react@19.2.3)
+        specifier: ^0.2.1
+        version: 0.2.1(react@19.2.3)
       postcss:
         specifier: ^8.4.35
         version: 8.4.35
@@ -1081,8 +1081,8 @@ packages:
   once@1.4.0:
     resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
 
-  openmascot@0.1.0:
-    resolution: {integrity: sha512-yXOHlqCdtTHEBH5+mB1T/2hChk1DObp7fUL6ixRimhBYYGCg7dOIcAbixeRT7//phImlsOgKYmArU0DKLE6mcg==}
+  openmascot@0.2.1:
+    resolution: {integrity: sha512-zjkyvY/aNmgaazapVq96VySyxW4pA3TTWmDHcP6D+4EUZWIScp6/36oTB5K1GX0zwslLUn7IAAE8Jeabw1E1rg==}
     peerDependencies:
       react: '>=19'
     peerDependenciesMeta:
@@ -2615,7 +2615,7 @@ snapshots:
     dependencies:
       wrappy: 1.0.2
 
-  openmascot@0.1.0(react@19.2.3):
+  openmascot@0.2.1(react@19.2.3):
     optionalDependencies:
       react: 19.2.3
 
